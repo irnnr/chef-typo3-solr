@@ -18,3 +18,6 @@
 # limitations under the License.
 #
 
+package "zip"
+include_recipe "java"
+
