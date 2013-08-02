@@ -17,3 +17,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+# General settings
+default['ext-solr']['version'] = "2.8.2" # master, 3.0, 2.8.4
+
