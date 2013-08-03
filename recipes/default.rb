@@ -20,4 +20,5 @@
 
 package "zip"
 include_recipe "java"
+include_recipe "git"
 
