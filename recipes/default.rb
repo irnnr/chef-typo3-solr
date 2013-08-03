@@ -24,7 +24,7 @@ include_recipe "git"
 
 
 git "Download EXT:solr source, version #{node['ext-solr']['version']}" do
-   repository "git://git.typo3.org/TYPO3v4/Extensions/solr.git"
-   revision node['ext-solr']['version']
-   destination "/var/www/site-#{node['typo3']['site_name']}/typo3conf/ext/solr"
+  repository "git://git.typo3.org/TYPO3v4/Extensions/solr.git"
+  revision node['ext-solr']['version']
+  destination "/var/www/site-#{node['typo3']['site_name']}/typo3conf/ext/solr"
 end
