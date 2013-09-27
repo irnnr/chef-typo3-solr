@@ -19,5 +19,5 @@
 #
 
 # General settings
-default['ext-solr']['version'] = "2.8.2" # master, 3.0, 2.8.4
+default['ext-solr']['version'] = "2.8.3" # master, 3.0, 2.8.4
 
